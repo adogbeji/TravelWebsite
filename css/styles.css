@@ -222,5 +222,42 @@ body {
 
 ._0057-sect_3 {
     grid-column: full-start / full-end;
-    background-color: #333333;
+    /* background-color: #333333; */
+    background-color: #000000;
+}
+
+._0057-sect_3-footer {
+    background-color: inherit;
+    padding: 1.4rem;  /* Creates space inside the footer (optional, but recommended!) */
+}
+
+._0057-sect_3-footer__box {
+    background-color: grey;
+    width: 90%;
+    margin: 0 auto;
+}
+
+._0057-sect_3-footer__icon-box {
+    /* background-color: #0000FF;  */
+
+    display: flex;
+    justify-content: center;
+
+    column-gap: 1.8rem;  /* Creates space between icons */
+}
+
+._0057-sect_3-footer__icon-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+._0057-sect_3-footer__social-icon-box {
+    width: 6rem;
+}
+
+._0057-sect_3-footer__social-icon-1, 
+._0057-sect_3-footer__social-icon-2 {
+    width: 100%;
+    height: auto;
+    display: block;
 }
