@@ -67,16 +67,6 @@ body {
     margin-left: 3rem;
 }
 
-._0057-sect_1-topnav__link:hover {
-    color: #050505;
-    display: inline-block;
-    text-decoration: none;
-    /* padding: 1rem 1.2rem;  */
-    padding: .65rem 1.2rem; 
-    border-radius: 1.2rem;
-    background-color: #FFFF00;
-}
-
 ._0057-sect_1-topnav__link-box {
     align-self: center;
 
@@ -95,6 +85,16 @@ body {
     color: #FFFF00;
     display: inline-block;
     text-decoration: none;
+}
+
+._0057-sect_1-topnav__link:hover {
+    color: #050505;
+    display: inline-block;
+    text-decoration: none;
+    /* padding: 1rem 1.2rem;  */
+    padding: .65rem 1.2rem; 
+    border-radius: 1.2rem;
+    background-color: #FFFF00;
 }
 
 ._0057-sect_1-card {
@@ -288,7 +288,59 @@ body {
 
 ._0165-sect_1 {
     grid-column: full-start / full-end;
-    background-color: #7E0FC5;
+    /* background-color: #7E0FC5; */
+    background-color: #333333;
+}
+
+._0165-sect_1-topnav {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 1.2rem;
+
+    /* background-color: grey; */
+    background-color: transparent;
+}
+
+._0165-sect_1-topnav__logo-link {
+    font-family: 'Oleo Script', system-ui;
+    font-size: 3.5rem;
+    color: #41D4D4;
+    letter-spacing: .3rem;
+    display: inline-block;
+    text-decoration: none;
+
+    margin-left: 3rem;
+}
+
+._0165-sect_1-topnav__link-box {
+    align-self: center;
+
+    flex: 0 0 20%;
+
+    display: flex;
+    justify-content: center;
+
+    gap: 1.2rem;
+
+    /* background-color: #00FF00; */
+}
+
+._0165-sect_1-topnav__link {
+    font-size: 2.2rem;
+    color: #41D4D4;
+    display: inline-block;
+    text-decoration: none;
+}
+
+._0165-sect_1-topnav__link:hover {
+    color: #050505;
+    display: inline-block;
+    text-decoration: none;
+    /* padding: 1rem 1.2rem;  */
+    padding: .65rem 1.2rem; 
+    border-radius: 1.2rem;
+    background-color: #FFFF00;
 }
 
 ._0165-sect_2 {
