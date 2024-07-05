@@ -283,7 +283,7 @@ body {
 
 ._0165 > * {
     font-size: 2.6rem;
-    padding: .5rem;
+    /* padding: .5rem; */
 }
 
 ._0165-sect_1 {
@@ -355,49 +355,182 @@ body {
     background-color: #808080;
 
     display: grid;
-    grid-template-rows: repeat(6, 16rem);
+    grid-template-rows: repeat(6, 21rem);
     grid-template-columns: [a] 1fr [b] 1fr [c];
 }
 
+._0165-sect_2-card {
+    /* width: 40%;
+    background-color: #333333; */
+
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+
+    transition: all .3s;
+    /* width: 40%;  Controls size of card (optional) */
+    /* padding: 1rem; */
+    border-radius: .5rem;
+    border: .15rem solid #BBB9B9;  /* Makes card stand out (optional) */
+    box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, .2);
+    background-color: #FFFFFF;
+    /* background-color: rgba(51, 51, 51, .8); */
+}
+
+._0165-sect_2-card:hover {
+    box-shadow: 0 .4rem 1.6rem 0 rgba(0, 0, 0, .2);
+}
+
+._0165-sect_2-card__photo-1, ._0165-sect_2-card__photo-2, ._0165-sect_2-card__photo-3,
+._0165-sect_2-card__photo-4, ._0165-sect_2-card__photo-5, ._0165-sect_2-card__photo-6,
+._0165-sect_2-card__photo-7, ._0165-sect_2-card__photo-8, ._0165-sect_2-card__photo-9,
+._0165-sect_2-card__photo-10 {
+    /* background-image: url('../images/barcelona.jpg'); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    transform: scale(1);
+
+    flex: 0 0 35%;
+}
+
+._0165-sect_2-card__photo-1 {
+    background-image: url('../images/barcelona.jpg');
+}
+
+._0165-sect_2-card__photo-2 {
+    background-image: url('../images/hawaii.jpg');
+}
+
+._0165-sect_2-card__photo-3 {
+    background-image: url('../images/london.jpg');
+}
+
+._0165-sect_2-card__photo-4 {
+    background-image: url('../images/miami.jpg');
+}
+
+._0165-sect_2-card__photo-5 {
+    background-image: url('../images/munich.jpg');
+}
+
+._0165-sect_2-card__photo-6 {
+    background-image: url('../images/new-york-city.jpg');
+}
+
+._0165-sect_2-card__photo-7 {
+    background-image: url('../images/paris.jpg');
+}
+
+._0165-sect_2-card__photo-8 {
+    background-image: url('../images/sydney.jpg');
+}
+
+._0165-sect_2-card__photo-9 {
+    background-image: url('../images/tokyo.jpg');
+}
+
+._0165-sect_2-card__photo-10 {
+    background-image: url('../images/bali.jpg');
+}
+
+._0165-sect_2-card__link-text-box {
+    display: flex;
+    justify-content: space-between;
+
+    flex-direction: column;
+
+    padding: 1.4rem;
+    /* background-color: #0000FF; */
+}
+
+._0165-sect_2-card__text-box {
+    /* background-color: #FF0000; */
+}
+
+._0165-sect_2-card__text-1 {
+    font-size: 2.4rem;
+    margin-bottom: .8rem;
+}
+
+._0165-sect_2-card__text-2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+._0165-sect_2-card__link-box {
+    text-align: right;
+    /* background-color: #00FF00; */
+}
+
+._0165-sect_2-card__link {
+    font-size: 1.8rem;
+    display: inline-block;
+    text-decoration: none;
+}
+
 ._0165-sect_2-card-1 {
-    background-color: #00FFFF;
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: #00FFFF; */
 }
 
 ._0165-sect_2-card-2 {
-    background-color: #FFA500;
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: #FFA500; */
 }
 
 ._0165-sect_2-card-3 {
     grid-column: a / c;
-    background-color: #F1425D;
+
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: #F1425D; */
 }
 
 ._0165-sect_2-card-4 {
-    background-color: #F5F5DC;
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: #F5F5DC; */
 }
 
 ._0165-sect_2-card-5 {
-    background-color: #BD00AA;
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: #BD00AA; */
 }
 
 ._0165-sect_2-card-6 {
-    background-color: #00FF00;
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: #00FF00; */
 }
 
 ._0165-sect_2-card-7 {
-    background-color: #FFFF00;
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: #FFFF00; */
 }
 
 ._0165-sect_2-card-8 {
-    background-color: #F4A4B4;
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: #F4A4B4; */
 }
 
 ._0165-sect_2-card-9 {
-    background-color: #0000FF;
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: #0000FF; */
 }
 
 ._0165-sect_2-card-10 {
-    background-color: #420000;
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: #420000; */
 }
 
 ._0165-sect_3 {
