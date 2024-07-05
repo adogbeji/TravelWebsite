@@ -368,6 +368,7 @@ body {
 }
 
 ._0165-sect_2-card-3 {
+    grid-column: a / c;
     background-color: #F1425D;
 }
 
